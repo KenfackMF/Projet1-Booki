@@ -1,0 +1,59 @@
+.hebergement1{
+    display: flex;
+    width: 120%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    }
+    
+    .card{
+        width: 235px;
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        height: 125px;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .imCard{
+        width: 235px;
+        background-position: center;
+        border-radius: 20px 20px 0 0;
+        height: 125px;
+    }
+    .nomHotel{
+        font-size: 14px;
+    }
+    
+    .prixHotel{
+        font-size: 14px;
+        display: inline-block;
+        margin-top: -5px;
+    }
+    
+    .etoile{
+        color: #0065FC;
+        margin-top: -10px;
+        font-size: 12px;
+    }
+    
+    .couleurGrise{
+        color: #878788;
+    }
+    
+    .cardTexte{
+        margin-left: 15px;
+    }
+    
+    .grillePopulaire{
+        display: flex;
+        flex-direction: column; 
+        align-content: space-between;    
+        width: 30%;
+        height: 630px;
+        background-color: #b8b8ba;
+        border-radius: 20px;
+        margin-top: 30px;
+        font-family: 'Raleway', sans-serif;
+    
+    }
